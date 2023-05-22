@@ -1,9 +1,36 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway&display=swap');
+
 .awesome{
 
 }
 
-.awesome-card{
+.awesome__content-box{
+    font-size: 0;
+}
+
+.awesome__card{
+display: inline-block;
+text-align: center;
+width: 33%;
+padding: 15px 20px;
+}
+
+.awesome__card-description{
+    font-family: Raleway;
+    max-width: 370px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.awesome__card-icon{
 
 }
 
-.awesome-card
+.awesome__card-title{
+font-family: Open Sans;
+font-size: 24px;
+margin-bottom: 20px;
+
+}
