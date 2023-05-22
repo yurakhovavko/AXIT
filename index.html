@@ -4,31 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/container.css">
+    <link rel="stylesheet" href="styles/section-header.css">
     <link rel="stylesheet" href="styles/awesome.css">
-    <title>Awesome_block</title>
+    <title>AXIT</title>
 </head>
 <body>
-    <div class="container">
-        <h2>WHY THIS IS AWESOME</h2>
-        <hr class="separator">
-        <h5>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h5>
-        <div class="card">
-            <img src="assets/icons/about_icon_1.png">
-            <h4>Thoughtfull Design</h4>
-            <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita temporibus labore cupiditate neque illum eveniet vel reprehenderit, beatae tenetur, voluptates ipsum!</h5>
-        </div>
+    <section class="awesome">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-header__title">WHY THIS IS AWESOME</h2>
+                <div class="section-header__line"></div>
+                <p class ="section-header__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
 
-        <div class="card">
-            <img src="assets/icons/about_icon_2.png">
-            <h4>Thoughtfull Design</h4>
-            <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita temporibus labore cupiditate neque illum eveniet vel reprehenderit, beatae tenetur, voluptates ipsum!</h5>
+                </p>
+            </div>
+            <div class="awesome__content-box">
+                <div class="awesome__card">
+                    <img src="assets/icons/bulb.png" alt="bulb-icon" class="awesome__card-icon">
+                    <h3 class="awesome__card-title">Thoughtfull Design</h3>
+                    <p class="awesome__card-description">Lorem ipsum dolor sit amet, consectetur adipiscing 
+                        elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
+                </div>
+                <div class="awesome__card">
+                    <img src="assets/icons/keyboard.png" alt="keyboard-icon" class="awesome__card-icon">
+                    <h3 class="awesome__card-title">Thoughtfull Design</h3>
+                    <p class="awesome__card-description">Lorem ipsum dolor sit amet, consectetur adipiscing 
+                        elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
+                </div>
+                <div class="awesome__card">
+                    <img src="assets/icons/lightning.png" alt="lightning-icon" class="awesome__card-icon">
+                    <h3 class="awesome__card-title">Thoughtfull Design</h3>
+                    <p class="awesome__card-description">Lorem ipsum dolor sit amet, consectetur adipiscing 
+                        elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
+                </div>
+            </div>
         </div>
-
-        <div class="card">
-            <img src="assets/icons/about_icon_3.png">
-            <h4>Thoughtfull Design</h4>
-            <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita temporibus labore cupiditate neque illum eveniet vel reprehenderit, beatae tenetur, voluptates ipsum!</h5>
-        </div>
-    </div>
+</section>
 </body>
 </html>
