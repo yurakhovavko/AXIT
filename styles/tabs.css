@@ -1,73 +1,67 @@
 /*fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway&display=swap");
 
-
-.tabs{
+.tabs {
   padding: 5rem 0;
 }
 
-.container {
-    margin: 0 auto;
-    padding: 0 15px;
-    max-width: 1170px;
-    border: 1px solid ;
-  }
-
-.tabs__content{
-    display: inline-block;
-    width: 50%;
-    padding: 20px;
-    border-top:1px solid #C6CBCD;
-    border-bottom: 1px solid #C6CBCD;
-    border-left: 1px solid #C6CBCD;
+.tabs__content {
+  font-size: 0;
+  padding-left: 100px;
+  border-top: 1px solid #c6cbcd;
+  border-bottom: 1px solid #c6cbcd;
+  border-left: 1px solid #c6cbcd;
 }
 
-.content__text{
-vertical-align: top;
-font-size: 0;
+.content__text {
+display: inline-block;
+width: 50%;
 }
 
-.tabs__title{
-    font-family: Open Sans;
-    font-size: 30px;
-    margin-bottom: 27px;
-    font-weight: 700;
-    margin-top: 20px;
+.tabs__title {
+  font-family: Open Sans;
+  font-size: 30px;
+  margin-bottom: 27px;
+  font-weight: 700;
+  margin-top: 20px;
 }
 
-.tabs__description{
-    font-family: Raleway;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-    margin-top: 40px;
+.tabs__description {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 40px;
 }
 
-.tabs-upbutton{
-font-family: Open Sans;
-font-size: 14px;
-width: 170px;
-height: 58px;
-border-top:1px solid #C6CBCD;
-border-right: 1px solid #C6CBCD;
-border-left: 1px solid #C6CBCD;
-padding: 0;
+.tabs-upbutton {
+  font-family: Open Sans;
+  font-size: 14px;
+  width: 170px;
+  height: 58px;
+  padding: 0;
 }
 
-.tabs__button{
-    padding: 20px 100px;
-    color: #fff;
-    border: 0;  
-    background-color: #EC7979;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 17px;
-    cursor: pointer;
-    margin-top: 27px;
-    
+.tabs-upbutton__active{
+    border-top: 1px solid #c6cbcd;
+    border-right: 1px solid #c6cbcd;
+    border-left: 1px solid #c6cbcd;
+    border-radius: 5px;
 }
 
-.liberty__statue{
-    width: 40%;
-    height: 473px;
+.tabs__button {
+  padding: 20px 100px;
+  color: #fff;
+  border: 0;
+  background-color: #ec7979;
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+  cursor: pointer;
+  margin-top: 27px;
+}
+
+.liberty__statue {
+  width: 40%;
+  margin-left: 103px;
 }
