@@ -5,12 +5,13 @@
 
 
 .container{
+    font-size: 0;
     margin-top: 138px;
     margin-bottom: 100px;
     max-width: 1170px;
     height: 501px;
     border: 1px solid #C6CBCD;
-    margin-bottom: 50px;
+    margin-bottom: 50px
 
 }
 
@@ -30,6 +31,7 @@
     font-family: Open Sans;
     font-size: 30px;
     margin-bottom: 27px;
+    margin-top: 62px;
 }
 
 .tabs__description{
