@@ -1,26 +1,26 @@
-.section-header{
-    text-align:center;
-    padding: 25px;
-    font-family: Raleway;
-}
-
-.section-header__title{
+.section-header {
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    padding: 2.5rem 0;
+  }
+  
+  .section-header__title {
     font-size: 2.3rem;
+    color: #000000;
     text-transform: uppercase;
-
-}
-
-.section-header__description{
-    font-size: 18px;
-    margin-top: 1rem;
-}
-
-.section-header__line{
-    display:inline-block;
-    height: 1px;
-    width: 170px;
-    background-color: #EC7979;
-    margin-top: 15px;
-    
-}
-
+  }
+  
+  .section-header__separator {
+    width: 10.6rem;
+    display: inline-block;
+    border-color: #ec7979;
+    margin-top: 2.5rem;
+  }
+  
+  .section-header__subtitle {
+    font-size: 1.13rem;
+    color: #86878b;
+    margin-top: 2.5rem;
+  }
+  
