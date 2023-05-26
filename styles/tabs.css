@@ -1,0 +1,41 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.tabs__content{
+    display: inline-block;
+}
+
+.tabs__title{
+    font-family: Open Sans;
+    font-size: 30px;
+    margin-bottom: 27px;
+}
+
+.tabs__description{
+font-family: Raleway;
+font-size: 18px;
+margin-bottom: 27px;
+}
+
+.tabs__button{
+    font-family: Open Sans;
+    font-size: 18px;
+    color: aliceblue;
+    width: 270px;
+    height: 58px;
+    margin-bottom: 54px;
+    background: #EC7979;
+    border-radius: 5px solid;
+}
