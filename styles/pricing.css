@@ -6,7 +6,8 @@
 .pricing__samples{
     display: flex;
     justify-content: space-evenly;
-    height: 400px;
+    height: 430px;
+    align-items: end;
 }
 
 .pricing-samples__basic
@@ -18,7 +19,7 @@
 
 
 .pricing-samples__optima{
-    align-self: center;
+    align-self: start;
     -webkit-box-shadow: 0px 23px 54px -8px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: 0px 23px 54px -8px rgba(0, 0, 0, 0.2);
     box-shadow: 0px 23px 54px -8px rgba(0, 0, 0, 0.2);
@@ -28,6 +29,7 @@ ul li {
     border: 1px solid #F5F5F5;
     text-align: center;
     padding: 10px 100px;
+    list-style-type:none;
 }
 
 .pricing-samples__title{
