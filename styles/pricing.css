@@ -15,8 +15,13 @@
     padding-left: 0px;
 }
 
+
+
 .pricing-samples__optima{
-    box-shadow: inset 0 0 6px;
+    align-self: center;
+    -webkit-box-shadow: 0px 23px 54px -8px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 23px 54px -8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 23px 54px -8px rgba(0, 0, 0, 0.2);
 }
 
 ul li {
