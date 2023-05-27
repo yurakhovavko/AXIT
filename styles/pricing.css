@@ -1,0 +1,52 @@
+.pricing{
+    background-color: #F5F5F5;
+    padding-bottom: 80px;
+}
+
+.pricing__samples{
+    display: flex;
+    justify-content: space-evenly;
+    height: 400px;
+}
+
+.pricing-samples__basic
+.pricing-samples__optima
+.pricing-samples__pro{
+    padding-left: 0px;
+}
+
+.pricing-samples__optima{
+    box-shadow: inset 0 0 6px;
+}
+
+ul li {
+    border: 1px solid #F5F5F5;
+    text-align: center;
+    padding: 10px 100px;
+}
+
+.pricing-samples__title{
+    font-family: Open Sans;
+    font-size: 24px;
+    color: #FFFFFF;
+    background-color: #333333;
+    
+}
+
+.pricing-samples__price{
+    font-family: Raleway;
+    font-size: 36px;
+    color: #FFFFFF;
+    background-color: #333333;
+}
+
+.pricing-samples__description{
+    font-family: Raleway;
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #333333;
+}
+
+.pricing-samples__item{
+    background-color: #FFFFFF;
+}
