@@ -44,10 +44,12 @@ width: 50%;
 }
 
 .tabs-upbutton__active{
-    border-top: 1px solid #c6cbcd;
-    border-right: 1px solid #c6cbcd;
-    border-left: 1px solid #c6cbcd;
-    border-radius: 5px;
+  position: relative;
+  top: 1px;
+  border: 1px solid #C6CBCD;
+  border-bottom: none;
+  border-radius: 5px 5px 0px 0px;
+  background: #FFFFFF;
 }
 
 .tabs__button {
