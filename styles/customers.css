@@ -1,5 +1,7 @@
 .customers__content-box{
-
+display: flex;
+column-gap: 2rem;
+margin-top: 2rem;
 }
 
 .review-section__car{
