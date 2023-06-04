@@ -1,0 +1,31 @@
+.customers__content-box{
+
+}
+
+.review-section__car{
+    ;
+}
+
+.review-section__feedback {
+    text-align: center;
+    position: relative;
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 1.13rem;
+    padding: 2rem 1rem;
+    background: #E2E2E2;
+    border-radius: 10px;
+    color: #86878B;
+}
+
+.reviews-section__feedback::after {
+    content: '';
+    position: absolute;
+    width: 0;
+	height: 0;
+    top: 100%;
+    left: 20%;
+	border-left: 1.4rem solid transparent;
+	border-right: 1.4rem solid transparent;
+	border-top: 1.8rem solid #E2E2E2;
+}
