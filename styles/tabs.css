@@ -45,7 +45,7 @@ width: 50%;
 
 .tabs-upbutton__active{
   position: relative;
-  top: 1px;
+  top: 2px;
   border: 1px solid #C6CBCD;
   border-bottom: none;
   border-radius: 5px 5px 0px 0px;
