@@ -40,11 +40,11 @@ margin-top: 2rem;
     margin-top: 4rem;
 }
 
-.review-section__customer-text{
+.review-section__card-customer-text{
     text-align: left;
 }
 
-.review-section__customer-name{
+.review-section__card-customer-name{
 font-family: Open Sans;
 font-size: 24px;
 }
