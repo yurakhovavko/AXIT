@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="styles/section-header.css" />
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/banner.css">
+    <link rel="stylesheet" href="styles/sociall.css">
     <link rel="stylesheet" href="styles/tabs.css" />
     <link rel="stylesheet" href="styles/awesome.css" />
     <link rel="stylesheet" href="styles/pricing.css" />
@@ -25,7 +26,7 @@
         class="header-logo"
       />
       <nav class="header-navigation">
-        <a href="#tabs-section" class="nav-link">Features</a>
+        <a href="#tabs-section" class="nav-link">features</a>
         <a href="#awesome-section" class="nav-link">About</a>
         <a href="#pricing-section" class="nav-link">Pricing</a>
         <a href="#reviews-section" class="nav-link">Reviews</a>
@@ -42,70 +43,98 @@
               class="banner-section-logo"
             />
             <div class="section-header">
-              <h1 class="section-header__title section-header--white-color">
+              <h1 class="section-header__title">
                 MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES
               </h1>
-              <hr
-                class="section-header__separator section-header--white-color"
-              />
-              <p class="section-header__subtitle section-header--white-color">
+              <hr class="separator">
+              <p class="section-header__subtitle">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </p>
             </div>
-            <button class="button transparent-button" type="button">
+            <button class="banner__button" type="button">
               Download
             </button>
           </div>
-          <form name="banner-form" action="" class="banner-section-form">
-            <h4 class="banner-section-form__title">
-              Try Your
-              <span class="banner-section-form__title--red">FREE</span> Trial
-              Today
-            </h4>
-            <fieldset class="banner-form-fieldset">
-              <label class="form-label" for="banner-form-input-name">
-                <input
-                  id="banner-form-input-name"
-                  autofocus
-                  class="form-input"
-                  type="text"
-                  placeholder="Name"
-                  required
-                />
-                <span class="label-content">Name</span>
-              </label>
-
-              <label class="form-label" for="banner-form-input-email">
-                <input
-                  id="banner-form-input-email"
-                  class="form-input"
-                  type="email"
-                  placeholder="Email"
-                  inputmode="email"
-                  required
-                />
-                <span class="label-content">Email</span>
-              </label>
-
-              <label class="form-label" for="banner-form-input-password">
-                <input
-                  id="banner-form-input-password"
-                  class="form-input"
-                  type="password"
-                  placeholder="Password"
-                  required
-                />
-                <span class="label-content">Password</span>
-              </label>
+          <form class="header__form" action="/" method="post">
+            <fieldset class="banner__form-user-data">
+              <legend class="banner__form-legend">
+                Try Your
+                <strong class="banner__legend-strong-text">FREE</strong>
+                Trial Today
+              </legend>
+              <input
+                class="banner__user-data-input"
+                type="text"
+                placeholder="Name"
+                autofocus
+                required
+                autocomplete="name"
+              />
+              <input
+                class="banner__user-data-input"
+                type="email"
+                placeholder="Email"
+                required
+                autocomplete="email"
+              />
+              <input
+                class="banner__user-data-input"
+                type="password"
+                placeholder="Password"
+                required
+                autocomplete="current-password"
+              />
             </fieldset>
-
-            <button class="button form-button" type="submit">
-              Get Started
-            </button>
-          </form>
         </div>
       </section>
-
+      <section class="social-section">
+        <div class="container social-section-container">
+          <div class="social-section-text">
+            <h4 class="social-section-title">Social Media</h4>
+            <p class="social-section-text-info">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+              euismod bibendum laoreet.
+            </p>
+          </div>
+          <div class="social-section-icons-box">
+            <img
+              class="social-section-icon"
+              src="assets/icons/facebook_icon.png"
+              alt="Social icon"
+            />
+            <img
+              class="social-section-icon"
+              src="assets/icons/twitter_icon.png"
+              alt="Social icon"
+            />
+            <img
+              class="social-section-icon"
+              src="assets/icons/linkedin_icon.png"
+              alt="Social icon"
+            />
+            <img
+              class="social-section-icon"
+              src="assets/icons/pinterest_icon.png"
+              alt="Social icon"
+            />
+            <img
+              class="social-section-icon"
+              src="assets/icons/instagram_icon.png"
+              alt="Social icon"
+            />
+            <img
+              class="social-section-icon"
+              src="assets/icons/github_icon.png"
+              alt="Social icon"
+            />
+            <img
+              class="social-section-icon"
+              src="/assets/icons/rss_icon.png"
+              alt="Social icon"
+            />
+          </div>
+        </div>
+      </section>
     <section class="tabs">
       <div class="container">
         <div class="tabs__buttons">

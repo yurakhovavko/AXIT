@@ -43,7 +43,6 @@ h6 {
 /* Выставляем основные настройки по-умолчанию для body */
 body {
   min-height: 100vh;
-  scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1.2;
 }
@@ -54,16 +53,30 @@ ol[class] {
   list-style: none;
 }
 
-html{
+html {
   font-size: 16px;
+  scroll-behavior: smooth;
 }
 
-button{
+button {
   background: transparent;
   cursor: pointer;
   border: none;
 }
 
-img{
+img {
   vertical-align: top;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+address {
+  font-style: normal;
+}
+
+textarea {
+  resize: none;
 }

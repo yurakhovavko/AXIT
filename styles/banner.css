@@ -1,9 +1,11 @@
 .banner-section {
-    background-image: url(/assets/images/image.png);
-    background-color: #333333;
-    background-size: cover;
-    background-position: center;
-    position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/assets/images/image.png);
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 10rem;
+  padding-bottom: 3.8rem;
   }
   
   .banner-section::after {
@@ -42,22 +44,68 @@
     align-items: center;
     min-width: 26rem;
   }
+  .section-header__title{
+    font-size: 48px;
+    color: #ffffff;
+  }
+
+  .section-header__subtitle{
+    color: #ffffff;
+    font-size: 18px;
+  }
   
+ .banner__button{
+      padding: 20px 100px;
+      color: #fff;
+      border: 0;
+      border: 2px solid;
+      border-color: #fff;
+      font-family: "Open Sans", sans-serif;
+      font-size: 17px;
+      cursor: pointer;
+      margin-top: 27px;
+  }
+
   .banner-section-form__title {
     text-transform: uppercase;
     color: #333333;
     padding: 1rem 1.5rem;
   }
   
-  .banner-section-form__title--red {
+  
+  .banner__form-legend {
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    color: #333333;
+    text-align: center;
+    position: relative;
+    top: 3rem;
+    white-space: nowrap;
+  }
+
+  .banner__legend-strong-text {
     color: #ec7979;
   }
-  
-  .banner-form-fieldset {
-    width: 100%;
+
+  .banner__form-user-data {
+    background: #ffffff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 5rem 50px;
+    gap: 1rem;
     display: flex;
     flex-direction: column;
-    row-gap: 2rem;
-    border: none;
-    padding: 2rem 2rem 4rem;
   }
+
+  .banner__button {
+    width: 100%;
+    border-radius: 0px 0px 10px 10px;
+  }
+
+ .separator{
+  width: 10.6rem;
+display: inline-block;
+border-color: #fff;
+ }
