@@ -4,10 +4,14 @@
   background-position: center bottom;
   background-size: cover;
   background-repeat: no-repeat;
-  padding-top: 10rem;
-  padding-bottom: 3.8rem;
+  padding-top: 7.5rem;
+  padding-bottom: 5rem;
   }
   
+  .banner-section-logo{
+    width: 283px;
+  }
+
   .banner-section::after {
     content: "";
     background-color: rgba(0, 0, 0, 0.6);
@@ -44,7 +48,7 @@
     align-items: center;
     min-width: 26rem;
   }
-  .section-header__title{
+  .banner__section-header__title{
     font-size: 48px;
     color: #ffffff;
   }
@@ -54,7 +58,7 @@
     font-size: 18px;
   }
   
- .banner__button{
+ .bannner__button{
       padding: 20px 100px;
       color: #fff;
       border: 0;
@@ -104,8 +108,10 @@
     border-radius: 0px 0px 10px 10px;
   }
 
- .separator{
+.separator-banner{
   width: 10.6rem;
-display: inline-block;
-border-color: #fff;
- }
+  display: inline-block;
+  border: 1px solid;
+  border-color: #fff;
+  margin-top: 2.5rem;
+}
