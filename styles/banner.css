@@ -1,6 +1,6 @@
 .banner-section {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/assets/images/image.png);
+    url("../assets/images/image.png");
   background-position: center bottom;
   background-size: cover;
   background-repeat: no-repeat;
