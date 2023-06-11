@@ -1,26 +1,23 @@
-    .footer{
-    background: #000000;
+.footer{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #000;
+    max-width: 100%;
+    min-height: 164px;
+}
 
-  .footer-container{
-margin-top: 41px;
-  }
-  
-  .footer-icons-box {
+.footer__icons-content{
     display: flex;
-    column-gap: 2rem;
+    column-gap: 5rem;
     padding: 2rem 0;
-  }
-  
-  .footer-copyright {
+}
+
+.footer-copyright{
     font-family: "Raleway";
+    text-align: center;
     font-weight: 400;
     font-size: 1.13rem;
     color: rgba(255, 255, 255, 0.5);
     padding-bottom: 1rem;
-    margin-top: 34px;
-    margin-bottom: 28px;
-  }
+}
