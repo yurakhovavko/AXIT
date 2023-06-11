@@ -9,14 +9,30 @@
       padding-bottom: 5rem;
   }
 
-.section-header__title{
-color: #fff;
+  .design-header {
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    padding: 2.5rem 0;
+  }
+  
+  .design-header__title {
+    font-size: 2.3rem;
+    color: #fff;
+    text-transform: uppercase;
   }
   
   .design__content-box {
     margin-top: 73px;
     text-align: center;
   }
+
+  .design-header__subtitle {
+    font-size: 1.13rem;
+    color: #fff;
+    margin-top: 2.5rem;
+  }
+  
 
 .design__button{
     padding: 20px 100px;
