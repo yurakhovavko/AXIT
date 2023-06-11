@@ -25,3 +25,7 @@
     text-transform: capitalize;
     color: #ffffff;
   }
+
+  .nav-link:hover{
+    color: #AB4949;
+}

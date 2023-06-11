@@ -17,15 +17,7 @@
 }
 
 
-
-.pricing-samples__optima{
-    align-self: start;
-    -webkit-box-shadow: 0px 23px 54px -8px rgba(0, 0, 0, 0.2);
-    -moz-box-shadow: 0px 23px 54px -8px rgba(0, 0, 0, 0.2);
-    box-shadow: 0px 23px 54px -8px rgba(0, 0, 0, 0.2);
-}
-
-ul li {
+ul li { 
     border: 1px solid #F5F5F5;
     text-align: center;
     padding: 10px 100px;
@@ -56,4 +48,11 @@ ul li {
 
 .pricing-samples__item{
     background-color: #FFFFFF;
+}
+
+.pricing__samples__basic:hover{
+    transform: translateY(-35px);
+    -webkit-box-shadow: 7px 10px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 7px 10px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 7px 10px 8px 0px rgba(34, 60, 80, 0.2);
 }
