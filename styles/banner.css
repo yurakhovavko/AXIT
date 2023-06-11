@@ -103,9 +103,17 @@
     flex-direction: column;
   }
 
-  .banner__button {
-    width: 100%;
+  .header__button {
+    width: 429px;
     border-radius: 0px 0px 10px 10px;
+    font-family: "Open Sans";
+font-weight: 600;
+font-size: 18px;
+line-height: 25px;
+text-transform: capitalize;
+color: #ffffff;
+background-color: #ec7979;
+padding: 15px 100px;
   }
 
 .separator-banner{
