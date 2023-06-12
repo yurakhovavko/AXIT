@@ -4,6 +4,7 @@
 
 .tabs {
   padding: 5rem 0;
+  scroll-margin-top:75px;
 }
 
 .tabs__content {
