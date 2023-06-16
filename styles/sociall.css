@@ -27,3 +27,8 @@
     display: flex;
     column-gap: 2rem;
   }
+
+.social-section-icons-box > a {
+  margin-top: auto;
+  margin-bottom: auto;
+}

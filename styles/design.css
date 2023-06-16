@@ -46,6 +46,10 @@
     margin-bottom: 50px;
 }
 
+.design__button:hover{
+  border: 2px solid #EC7979;
+}
+
 .design-separator{
     width: 10.6rem;
     display: inline-block;
@@ -53,3 +57,4 @@
     border-color: #fff;
     margin-top: 2.5rem;
 }
+

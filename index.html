@@ -113,41 +113,41 @@
             </p>
           </div>
           <div class="social-section-icons-box">
-            <img
+            <a href=""><img
               class="social-section-icon"
               src="assets/icons/facebook.svg"
               alt="Social icon"
-            />
-            <img
+            /></a>
+            <a href=""><img
               class="social-section-icon"
               src="assets/icons/twitter.svg"
               alt="Social icon"
-            />
-            <img  
+            /></a>
+            <a href=""><img  
               class="social-section-icon"
               src="assets/icons/linkedin.svg"
               alt="Social icon"
-            />
-            <img
+            /></a>
+            <a href=""><img
               class="social-section-icon"
               src="assets/icons/pinterest.svg"
               alt="Social icon"
-            />
-            <img
+            /></a>
+            <a href=""><img
               class="social-section-icon"
               src="assets/icons/instagram.svg"
               alt="Social icon"
-            />
-            <img
+            /></a>
+            <a href=""><img
               class="social-section-icon"
               src="assets/icons/github.svg"
               alt="Social icon"
-            />
-            <img
+            /></a>
+            <a href=""><img
               class="social-section-icon"
               src="assets/icons/rss.svg"
               alt="Social icon"
-            />
+            /></a>
           </div>
         </div>
       </section>
@@ -173,7 +173,7 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
                 alias fuga ea!
               </p>
-              <button class="tabs__button" type="button">Download</button>
+              <button type="submit" class="tabs__button">Download</button>
             </div>
           </div>
           <img
@@ -344,7 +344,7 @@
         </p>
       </header>
       <div class="design__content-box">
-        <button class="design__button">Download</button>
+        <button type="submit" class="design__button">Download</button>
       </div>
     </section>
 
@@ -357,48 +357,51 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </p>
         </div>
-        <fieldset class="contact-form-fieldset">
-      <div class="contact-input-group">
-          <label class="form-lable" for="contact-form__input-name">
-            <input
-              class="form__input"
-              autofocus
-              type="text"
-              placeholder="Name"
-              id="contact-form__input-name"
-              required
-            />
-          </label>
+        <form>
+          <fieldset class="contact-form-fieldset">
+            <div class="contact-input-group">
+              <label class="form-lable" for="contact-form__input-name">
+                <input
+                  class="form__input"
+                  autofocus
+                  type="text"
+                  placeholder="Name"
+                  id="contact-form__input-name"
+                  required
+                />
+              </label>
 
-          <label class="form-lable" for="contact-form__input-email">
-            <input
-              class="form__input"
-              type="email"
-              placeholder="Email"
-              id="contact-form__input-email"
-              required
-            />
-          </label>
+                <label class="form-lable" for="contact-form__input-email">
+                  <input
+                    class="form__input"
+                    type="email"
+                    placeholder="Email"
+                    id="contact-form__input-email"
+                    required
+                  />
+                </label>
 
-          <label class="form-lable" for="contact-form__input-password">
-            <input
-              class="form__input"
-              type="password"
-              placeholder="Password"
-              id="contact-form__input-password"
-              required
-            />
-          </label>
-        </div>
+                <label class="form-lable" for="contact-form__input-password">
+                  <input
+                    class="form__input"
+                    type="password"
+                    placeholder="Password"
+                    id="contact-form__input-password"
+                    required
+                  />
+                </label>
+            </div>
 
-          <label class="form-lable" id="contact-form-textarea">
-            <textarea 
-              class="form-textarea"
-              placeholder="Message"
-            ></textarea>
-          </label>
-        </fieldset>
-        <button class="contact-form__button">Send Message</button>
+            <label class="form-lable" id="contact-form-textarea">
+              <textarea 
+                class="form-textarea"
+                placeholder="Message"
+              ></textarea>
+            </label>
+          </fieldset>
+        
+          <button type="submit" class="contact-form__button">Send Message</button>
+        </form>
       </div>
     </section>
   </main>

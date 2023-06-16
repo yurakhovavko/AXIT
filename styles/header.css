@@ -16,7 +16,7 @@
 
   .header-menu{
     display: flex;
-    column-gap: 8%;
+    column-gap:8%;
     list-style-type: none;
     margin: 0;
     padding: 0;

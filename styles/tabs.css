@@ -64,6 +64,10 @@ width: 50%;
   margin-top: 27px;
 }
 
+.tabs__button:hover{
+  background: #c26262;
+}
+
 .liberty__statue {
   width: 40%;
   margin-left: 103px;
