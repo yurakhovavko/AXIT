@@ -23,7 +23,7 @@
   }
   
   .design__content-box {
-    margin-top: 73px;
+    margin-top: 4.5rem;
     text-align: center;
   }
 
@@ -35,15 +35,15 @@
   
 
 .design__button{
-    padding: 20px 100px;
+    padding: 1.25rem 6.25rem;
     color: #fff;
     border: 0;
     border: 2px solid;
     border-color: #fff;
     font-family: "Open Sans", sans-serif;
-    font-size: 17px;
+    font-size: 1rem;
     cursor: pointer;
-    margin-bottom: 50px;
+    margin-bottom: 3.12rem;
 }
 
 .design__button:hover{
