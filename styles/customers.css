@@ -33,7 +33,7 @@ margin-top: 2rem;
 }
 
 .customers{
-    scroll-margin-top:75px;
+    scroll-margin-top:4.68rem;
 }
 
 .review-section__customer{
@@ -49,13 +49,13 @@ margin-top: 2rem;
 
 .review-section__card-customer-name{
 font-family: Open Sans;
-font-size: 24px;
+font-size: 1.5rem;
 }
 
 .review-section__card-customer-post{
     font-family: Raleway;
-    font-size: 18px;
-    padding-top: 15px;
+    font-size: 1.12rem;
+    padding-top: 1rem;
 
 }
 
