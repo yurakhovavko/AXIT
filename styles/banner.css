@@ -41,7 +41,7 @@
 
 .banner__button{
   display: flex;
-  margin-top:5.6rem;
+  margin-top:7rem;
   font-family: 'Open Sans', sans-serif;
   text-transform: capitalize;
   color: #fff;
@@ -131,3 +131,6 @@
 .banner-form__button:focus{
   background: #a75454;
 }
+
+
+

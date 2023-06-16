@@ -4,12 +4,12 @@
 
 .tabs {
   padding: 5rem 0;
-  scroll-margin-top:75px;
+  scroll-margin-top:4.6rem;
 }
 
 .tabs__content {
   font-size: 0;
-  padding-left: 100px;
+  padding-left: 6.25rem;
   border-top: 1px solid #c6cbcd;
   border-bottom: 1px solid #c6cbcd;
   border-left: 1px solid #c6cbcd;
@@ -24,16 +24,14 @@ width: 50%;
   font-family: Open Sans;
   font-size: 30px;
   margin-bottom: 27px;
-  font-weight: 700;
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 
 .tabs__description {
   font-family: Raleway;
   font-size: 18px;
-  font-weight: 400;
-  line-height: 30px;
-  margin-top: 40px;
+  line-height: 1.8rem;
+  margin-top: 2.5rem;
 }
 
 .tabs-upbutton {
@@ -61,7 +59,7 @@ width: 50%;
   font-family: "Open Sans", sans-serif;
   font-size: 17px;
   cursor: pointer;
-  margin-top: 27px;
+  margin-top: 1.9rem;
 }
 
 .tabs__button:hover{
@@ -70,5 +68,5 @@ width: 50%;
 
 .liberty__statue {
   width: 40%;
-  margin-left: 103px;
+  margin-left: 6.4rem;
 }
