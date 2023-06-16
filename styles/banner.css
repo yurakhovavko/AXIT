@@ -1,16 +1,17 @@
 .banner{
   background-image: url("../assets/images/image.png");
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
-  min-height: 1200px;
+  min-height: 1026px;
   background-color: #333333;
   background-size: cover;
   background-position: center;
 }
 .banner-section-logo{
-  width: 270px;
+  min-width: 270px;
+  padding-bottom: 3.2rem;
 }
 .banner .container{
-  padding: 20rem 0;
+  padding: 13rem 0;
 }
 
 .banner-header{
@@ -25,7 +26,7 @@
   font-family: 'Raleway', sans-serif;
 }
 
-.banner__description {
+.banner__description {  
   color: #ffffff;
   font-size: 18px;
   margin-top: 3rem;
@@ -33,7 +34,7 @@
 }
 
 .banner-separator{
-  display: inline-block;
+  display: flex;
   height: 1px;
   width: 170px;
  color: #ffffff;
@@ -41,21 +42,21 @@
 }
 
 .banner__button{
-  display: block;
-  margin-top: 90px;
+  display: flex;
+  margin-top:5.6rem;
   font-family: 'Open Sans', sans-serif;
   text-transform: capitalize;
   color: #fff;
   font-size: 20px;
   border: 2px solid #fff;
-  padding: 15px 90px;
+  padding: 1rem 5.6rem;
   cursor: pointer;
   transition: all 0.05s ease-in-out;
 }
 
-.banner__button:active{
+.banner__button:hover{
   border: none;
-  background-color: #EC7979;
+  background: #EC7979;
 }
 
 
@@ -72,7 +73,7 @@
   margin-left: 1rem;
 }
 
-.banner-form__title{
+.banner__form-title{
   text-transform: uppercase;
   font-family: 'Open Sans', sans-serif;
   font-size: 1.5rem;
