@@ -32,3 +32,12 @@
   margin-top: auto;
   margin-bottom: auto;
 }
+
+
+.social-section-icon {
+  transition: 1s; 
+  }
+  .social-section-icon:hover {
+  transform: scale(1.2); 
+  }
+  

@@ -25,3 +25,11 @@
     margin-top: auto;
     margin-bottom: auto;
   }
+
+
+.footer__icons {
+transition: 1s; 
+}
+.footer__icons:hover {
+transform: scale(1.2);
+}
