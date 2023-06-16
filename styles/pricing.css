@@ -11,45 +11,28 @@
     align-items: end;
 }
 
-.pricing-samples__basic{
+.pricing-samples__card{
     transition: all .3s ease-in-out;
     margin-left: 50px;
     padding: 0;
     cursor: pointer;
-}
-
-.pricing-samples__optima{
-    transition: all .3s ease-in-out;
-    margin-left: 50px;
-    padding: 0;
-    cursor: pointer;
-}
-
-.pricing-samples__pro{
-    transition: all .3s ease-in-out;
-    margin-left: 50px;
-    padding: 0;
-    cursor: pointer;
-}
-
-
-
-ul li { 
     border: 1px solid #F5F5F5;
     text-align: center;
-    padding: 10px 100px;
-    list-style-type:none;
+    list-style-type: none;
 }
 
 .pricing-samples__title{
+    border: 1px solid #F5F5F5;
     font-family: Open Sans;
     font-size: 24px;
     color: #FFFFFF;
     background-color: #333333;
-    
+    padding: 1rem;
+
 }
 
 .pricing-samples__price{
+    border: 1px solid #F5F5F5;
     font-family: Raleway;
     font-size: 36px;
     color: #FFFFFF;
@@ -57,31 +40,37 @@ ul li {
 }
 
 .pricing-samples__description{
+    border: 1px solid #F5F5F5;
     font-family: Raleway;
     font-size: 18px;
-    color: #FFFFFF;
     background-color: #333333;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 1rem;
 }
 
 .pricing-samples__item{
     background-color: #FFFFFF;
+    border: 1px solid #F5F5F5;
+    text-align: center;
+    padding: 10px 100px;
+    list-style-type:none;
 }
 
-.pricing-samples__basic:hover{
+.pricing-samples__card:hover{
     transform: translateY(-35px);
     -webkit-box-shadow: 7px 10px 8px 0px rgba(34, 60, 80, 0.2);
     -moz-box-shadow: 7px 10px 8px 0px rgba(34, 60, 80, 0.2);
     box-shadow: 7px 10px 8px 0px rgba(34, 60, 80, 0.2);
 }
 
-.pricing-samples__optima:hover{
+.pricing-samples__card:hover{
     transform: translateY(-35px);
     -webkit-box-shadow: 7px 10px 8px 0px rgba(34, 60, 80, 0.2);
     -moz-box-shadow: 7px 10px 8px 0px rgba(34, 60, 80, 0.2);
     box-shadow: 7px 10px 8px 0px rgba(34, 60, 80, 0.2);
 }
 
-.pricing-samples__pro:hover{
+.pricing-samples__card:hover{
     transform: translateY(-35px);
     -webkit-box-shadow: 7px 10px 8px 0px rgba(34, 60, 80, 0.2);
     -moz-box-shadow: 7px 10px 8px 0px rgba(34, 60, 80, 0.2);
