@@ -4,7 +4,7 @@
     align-items: flex-end;
     background-color: #000;
     max-width: 100%;
-    min-height: 164px;
+    min-height: 10.25rem;
 }
 
 .footer__icons-content{
@@ -16,7 +16,6 @@
 .footer-copyright{
     font-family: "Raleway";
     text-align: center;
-    font-weight: 400;
     font-size: 1.13rem;
     color: rgba(255, 255, 255, 0.5);
     padding-bottom: 1rem;
