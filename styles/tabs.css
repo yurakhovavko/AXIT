@@ -8,7 +8,7 @@
 }
 
 .tabs__content {
-  font-size: 0;
+  display: flex;
   padding-left: 6.25rem;
   border-top: 1px solid #c6cbcd;
   border-bottom: 1px solid #c6cbcd;
@@ -69,4 +69,74 @@ width: 50%;
 .liberty__statue {
   width: 40%;
   margin-left: 6.4rem;
+}
+
+
+@media(max-width:952px){
+
+}
+
+
+@media(max-width:1134px) {
+
+  .tabs__content {
+    font-size: 15px;
+    padding-left: 4rem;
+    border-top: 1px solid #c6cbcd;
+    border-bottom: 1px solid #c6cbcd;
+    border-left: 1px solid #c6cbcd;
+  }
+
+  .tabs__title {
+    font-family: Open Sans;
+    font-size: 24px;
+    margin-bottom: 1.6rem;
+    margin-top: 11px;
+  }
+
+  .tabs__description {
+    font-family: Raleway;
+    font-size: 14px;
+    line-height: 1.8rem;
+    margin-top: 1.25rem;
+  }
+
+  .liberty__statue {
+    width: 40%;
+    margin-left: 5.26rem;
+  }
+
+  .tabs__button {
+    padding: 20px 100px;
+    color: #fff;
+    border: 0;
+    background-color: #ec7979;
+    font-family: "Open Sans", sans-serif;
+    font-size: 17px;
+    cursor: pointer;
+    margin-top: 1.8rem;
+    margin-bottom:1.3rem;
+  }
+
+  .content__text {
+    text-align: center;
+    }
+}
+
+@media(max-width:990px){
+  .liberty__statue{
+    display: none;
+  }
+  .tabs__content {
+    border-top: 1px solid #c6cbcd;
+    border-bottom: 1px solid #c6cbcd;
+    border-left: 1px solid #c6cbcd;
+    border-right: 1px solid #c6cbcd;
+    text-align: center
+  }
+
+  .content__text {
+    text-align: center;
+    }
+
 }

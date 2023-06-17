@@ -132,5 +132,39 @@
   background: #a75454;
 }
 
+@media(max-width:932px){
+.form__input{
+  display: flex;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    min-width: 23rem;
+    min-height: 2.5rem;
+    outline: none;
+}
+}
+
+@media(max-width:850px){
+  .form__input{
+    display: flex;
+      border: none;
+      border-bottom: 1px solid #BDBDBD;
+      min-width: 20rem;
+      min-height: 2.5rem;
+      outline: none;
+  }
+  }
+  
 
 
+@media(max-width:768px) {
+
+  .banner__form{
+    background: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    max-height: 27rem;
+    margin-left: 1rem;
+  }
+  
+}
