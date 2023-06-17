@@ -76,3 +76,23 @@
     -moz-box-shadow: 7px 10px 8px 0px rgba(34, 60, 80, 0.2);
     box-shadow: 7px 10px 8px 0px rgba(34, 60, 80, 0.2);
 }
+
+
+@media(max-width:990px){
+    .pricing__samples{
+        display: flex;
+        justify-content: space-evenly;
+        height: 550px;
+        align-items: end;
+        flex-wrap: wrap;
+    }
+    .pricing-samples__card{
+        transition: all .3s ease-in-out;
+        margin-left: 20px;
+        padding: 0;
+        cursor: pointer;
+        border: 1px solid #F5F5F5;
+        text-align: center;
+        list-style-type: none;
+    }
+}

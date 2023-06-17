@@ -16,7 +16,7 @@
 }
 
 .content__text {
-display: inline-block;
+  display: inline-block;
 width: 50%;
 }
 
@@ -72,12 +72,10 @@ width: 50%;
 }
 
 
-@media(max-width:952px){
-
-}
 
 
-@media(max-width:1134px) {
+
+@media(max-width:1024px) {
 
   .tabs__content {
     font-size: 15px;
@@ -85,6 +83,7 @@ width: 50%;
     border-top: 1px solid #c6cbcd;
     border-bottom: 1px solid #c6cbcd;
     border-left: 1px solid #c6cbcd;
+    
   }
 
   .tabs__title {
@@ -102,7 +101,7 @@ width: 50%;
   }
 
   .liberty__statue {
-    width: 40%;
+    width: 45%;
     margin-left: 5.26rem;
   }
 
@@ -118,9 +117,7 @@ width: 50%;
     margin-bottom:1.3rem;
   }
 
-  .content__text {
-    text-align: center;
-    }
+  
 }
 
 @media(max-width:990px){
@@ -132,11 +129,14 @@ width: 50%;
     border-bottom: 1px solid #c6cbcd;
     border-left: 1px solid #c6cbcd;
     border-right: 1px solid #c6cbcd;
-    text-align: center
   }
 
+
   .content__text {
-    text-align: center;
-    }
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+  }
+  
 
 }

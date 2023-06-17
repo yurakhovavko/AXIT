@@ -3,23 +3,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway&display=swap');
 
 .awesome{
+   
     padding-bottom: 5rem;
     scroll-margin-top:4.68rem;
 }
 .awesome__content-box{
-    font-size: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1.25rem;
+    margin: -15px;
 }
 
 .awesome__card{
-display: inline-block;
 text-align: center;
-width: 33%;
+max-width: 33%;
 padding: 1rem 1.2rem;
 }
 
 .awesome__card-description{
     font-family: Raleway;
-    max-width: 370px;
+    max-width: 23rem;
     font-size: 1.2rem;
     margin-bottom: 1.25rem;
     display: inline-block;
@@ -31,4 +34,27 @@ font-family: Open Sans;
 font-size: 1.5rem;
 margin-bottom: 1.2rem;
 
+}
+
+@media(max-width:768px){
+    .awesome__content-box{
+        flex-wrap: wrap;
+    }
+
+    .awesome__card-description{
+        font-family: Raleway;
+        max-width: 23rem;
+        font-size: 1.2rem;
+        margin-bottom: 1.25rem;
+        display: inline-block;
+    }
+    
+    
+    .awesome__card-title{
+    font-family: Open Sans;
+    font-size: 1.5rem;
+    margin-bottom: 1.2rem;
+    
+
+}
 }

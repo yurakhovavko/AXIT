@@ -44,13 +44,8 @@
 
 
 @media(max-width:952px){
-.header-logo{
-  display: none;
-}
-}
-
-@media(max-width:728px){
-  .header-navigation{
+  .header-menu{
     display: none;
   }
 }
+
