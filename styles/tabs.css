@@ -9,7 +9,6 @@
 
 .tabs__content {
   display: flex;
-  padding-left: 6.25rem;
   border-top: 1px solid #c6cbcd;
   border-bottom: 1px solid #c6cbcd;
   border-left: 1px solid #c6cbcd;
@@ -52,7 +51,8 @@ width: 50%;
 }
 
 .tabs__button {
-  padding: 20px 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   color: #fff;
   border: 0;
   background-color: #ec7979;
@@ -60,6 +60,8 @@ width: 50%;
   font-size: 17px;
   cursor: pointer;
   margin-top: 1.9rem;
+  width: 15rem;
+  margin-bottom: 0.6rem;
 }
 
 .tabs__button:hover{
@@ -79,7 +81,7 @@ width: 50%;
 
   .tabs__content {
     font-size: 15px;
-    padding-left: 4rem;
+    padding-left: 2rem;
     border-top: 1px solid #c6cbcd;
     border-bottom: 1px solid #c6cbcd;
     border-left: 1px solid #c6cbcd;
@@ -104,15 +106,9 @@ width: 50%;
     width: 45%;
     margin-left: 5.26rem;
   }
-
-
-
   
 }
 
-@media(max-width:1000px){
-
-}
 
 
 
@@ -144,7 +140,6 @@ width: 50%;
     cursor: pointer;
     margin-top: 1.8rem;
     margin-bottom:1.3rem;
-    margin-right: 10rem;
     text-align: center;
   }
 
@@ -152,8 +147,7 @@ width: 50%;
 
 @media(max-width:428px){
   .content__text {
-    margin-right: auto;
-    margin-left: auto;
+
     width: 100%;
     }
 
@@ -168,6 +162,76 @@ width: 50%;
     margin-top: 1.8rem;
     margin-bottom:1.3rem;
     text-align: center;
+    width: 90%;
+  }
+
+  .tabs-upbutton {
+    font-family: Open Sans;
+    font-size: 14px;
+    width: 110px;
+    height: 40px;
+    padding: 0;
+  }
+
+
+  .tabs__content {
+    display: flex;
+    border-top: 1px solid #c6cbcd;
+    border-bottom: 1px solid #c6cbcd;
+    border-left: 1px solid #c6cbcd;
+  }
+
+
+  .tabs__description {
+    font-family: Raleway;
+    font-size: 14px;
+    line-height: 1.8rem;
+    margin-top: 1.25rem;
+    text-align: left;
+  }
+}
+
+@media(max-width:360px){
+  .content__text {
+
     width: 100%;
+    }
+
+
+  .tabs__button {
+    color: #fff;
+    border: 0;
+    background-color: #ec7979;
+    font-family: "Open Sans", sans-serif;
+    font-size: 17px;
+    cursor: pointer;
+    margin-top: 1.8rem;
+    margin-bottom:1.3rem;
+    text-align: center;
+  }
+
+  .tabs-upbutton {
+    font-family: Open Sans;
+    font-size: 14px;
+    width: 100px;
+    height: 40px;
+    padding: 0;
+  }
+
+
+  .tabs__content {
+    display: flex;
+    border-top: 1px solid #c6cbcd;
+    border-bottom: 1px solid #c6cbcd;
+    border-left: 1px solid #c6cbcd;
+  }
+
+
+  .tabs__description {
+    font-family: Raleway;
+    font-size: 14px;
+    line-height: 1.8rem;
+    margin-top: 1.25rem;
+    text-align: left;
   }
 }

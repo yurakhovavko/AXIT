@@ -71,7 +71,7 @@
 
 
     .social-section{
-        height: 20rem;
+        height: 15rem;
     }
   
   
@@ -86,7 +86,7 @@
 
     .social-section-icon {
       transition: 1s; 
-      height: 1.5rem;
+      height: 1rem;
       }
       
   }

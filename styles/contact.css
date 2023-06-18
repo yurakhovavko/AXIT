@@ -128,7 +128,7 @@
     color: #333333;
   }
 }
-  @media(max-width:810px){
+  @media(max-width:834px){
     .form-textarea {
       font-family: "Open Sans", sans-serif;
       line-height: 1.4;
@@ -137,7 +137,7 @@
       border-bottom: 1px solid #bdbdbd;
       padding: 5px;
       padding-left: 10px;
-      padding-right: 8rem;
+      padding-right: 3rem;
       color: #333333;
     }
     
