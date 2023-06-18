@@ -132,39 +132,45 @@
   background: #a75454;
 }
 
-@media(max-width:932px){
-.form__input{
-  display: flex;
-    border: none;
-    border-bottom: 1px solid #BDBDBD;
-    min-width: 23rem;
-    min-height: 2.5rem;
-    outline: none;
-}
-}
-
-@media(max-width:850px){
-  .form__input{
-    display: flex;
-      border: none;
-      border-bottom: 1px solid #BDBDBD;
-      min-width: 20rem;
-      min-height: 2.5rem;
-      outline: none;
+@media (max-width: 768px){
+  .banner .container{
+  max-width: 45.5rem;
+  padding: 0 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
   }
+
+  .banner-header{
+    text-align: center;
+  }
+  .banner-separator{
+    display: flex;
+    height: 1px;
+    width: 170px;
+   color: #ffffff;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
   }
   
-
-
-@media(max-width:768px) {
+  .banner__button{
+    margin-top: 3rem;
+      padding: 1rem 10.5rem;
+      margin-left: auto;
+      margin-right: auto;
+  }
 
   .banner__form{
-    background: #ffffff;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    max-height: 27rem;
-    margin-left: 1rem;
+      max-width: 80%;
+      margin-top: 2rem;
   }
-  
+
+  .form__input{
+      min-width: 100%;
+  }
+
+  .banner-section-logo{
+    display: none;
+  }
 }

@@ -78,21 +78,21 @@
 }
 
 
-@media(max-width:990px){
-    .pricing__samples{
-        display: flex;
-        justify-content: space-evenly;
-        height: 550px;
-        align-items: end;
-        flex-wrap: wrap;
-    }
-    .pricing-samples__card{
-        transition: all .3s ease-in-out;
-        margin-left: 20px;
-        padding: 0;
-        cursor: pointer;
-        border: 1px solid #F5F5F5;
-        text-align: center;
-        list-style-type: none;
-    }
+@media (max-width: 768px){
+    .pricing {
+        height: auto
+        }
+        
+
+    .pricing__samples {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 4rem;
+        height: auto;
+        }
+        
+    .pricing__samples-card {
+        margin-left: 0;
+        margin-bottom: 3rem;
+        }
 }

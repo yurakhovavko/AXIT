@@ -59,3 +59,20 @@ font-size: 1.5rem;
 
 }
 
+
+@media (max-width: 768px) {
+    .review-section__card:not(:first-of-type) {
+        display: none;
+    }
+
+    .review-section__card-customer-post{
+        padding: 5rem 1.9rem;
+    }
+
+    .review-section__card-customer-post{
+        font-family: Raleway;
+        font-size: 1.12rem;
+        padding-top: 1rem;
+    
+    }
+}

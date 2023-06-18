@@ -105,22 +105,12 @@ width: 50%;
     margin-left: 5.26rem;
   }
 
-  .tabs__button {
-    padding: 20px 100px;
-    color: #fff;
-    border: 0;
-    background-color: #ec7979;
-    font-family: "Open Sans", sans-serif;
-    font-size: 17px;
-    cursor: pointer;
-    margin-top: 1.8rem;
-    margin-bottom:1.3rem;
-  }
+
 
   
 }
 
-@media(max-width:990px){
+@media(max-width:768px){
   .liberty__statue{
     display: none;
   }
@@ -137,6 +127,19 @@ width: 50%;
   margin-left: auto;
   width: 50%;
   }
-  
+
+
+  .tabs__button {
+    color: #fff;
+    border: 0;
+    background-color: #ec7979;
+    font-family: "Open Sans", sans-serif;
+    font-size: 17px;
+    cursor: pointer;
+    margin-top: 1.8rem;
+    margin-bottom:1.3rem;
+    margin-right: 10rem;
+    text-align: center;
+  }
 
 }
