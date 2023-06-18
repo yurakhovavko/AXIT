@@ -132,6 +132,20 @@
   background: #a75454;
 }
 
+
+@media(max-width:800px){
+
+
+  .banner__form{
+    max-width: 50%;
+    margin-top: 2rem;
+}
+.form__input{
+  min-width: 100%;
+}
+
+}
+
 @media (max-width: 768px){
   .banner .container{
   max-width: 45.5rem;
@@ -156,7 +170,7 @@
   
   .banner__button{
     margin-top: 3rem;
-      padding: 1rem 10.5rem;
+      padding: 1rem 5.6rem;
       margin-left: auto;
       margin-right: auto;
   }
@@ -175,16 +189,7 @@
   }
 }
 
-@media(max-width:800px){
-  .banner-form-fieldset{
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    row-gap: 2rem;
-    border: none;
-    padding: 2rem 2rem 5rem;
-  }
-}
+
 
 
 @media(max-width:428px){
