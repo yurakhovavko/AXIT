@@ -110,6 +110,12 @@ width: 50%;
   
 }
 
+@media(max-width:1000px){
+
+}
+
+
+
 @media(max-width:768px){
   .liberty__statue{
     display: none;
