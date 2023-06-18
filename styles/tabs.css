@@ -149,3 +149,25 @@ width: 50%;
   }
 
 }
+
+@media(max-width:428px){
+  .content__text {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    }
+
+
+  .tabs__button {
+    color: #fff;
+    border: 0;
+    background-color: #ec7979;
+    font-family: "Open Sans", sans-serif;
+    font-size: 17px;
+    cursor: pointer;
+    margin-top: 1.8rem;
+    margin-bottom:1.3rem;
+    text-align: center;
+    width: 100%;
+  }
+}

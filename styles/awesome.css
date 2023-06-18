@@ -39,12 +39,17 @@ margin-bottom: 1.2rem;
 
 @media(max-width:768px){
 
-
+    .awesome__card{
+        text-align: center;
+        min-width:2rem;
+        padding: 1rem 1.2rem;
+        margin-left: auto;
+        margin-right: auto;
+        }
     
     .awesome__content-box{
         display: flex;
         flex-wrap: wrap;
-        margin-left: 9.5rem;
     }
 
     .awesome__card-description{

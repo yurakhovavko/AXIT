@@ -67,17 +67,13 @@
     }
   }
 
-  @media (max-width: 320px){
+  @media (max-width: 428px){
 
 
     .social-section{
         height: 20rem;
     }
   
-    .social-section-container{
-      display: flex;
-        flex-wrap: wrap;
-    }
   
     .social-section-text{
         padding-top: 30px;
@@ -85,7 +81,12 @@
     }
   
     .social-section-icons-box {
-      margin-top: 2rem;
-      display: flex;
+      margin-top: 3rem;
     }
+
+    .social-section-icon {
+      transition: 1s; 
+      height: 1.5rem;
+      }
+      
   }
