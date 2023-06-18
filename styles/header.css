@@ -42,45 +42,7 @@
     color: #AB4949;
 }
 
-.menu-burger-btn {
-  display: none;
-}
 
-.menu-burger-label {
-  display: none;
-}
-
-.menu-burger-label:after,
-.menu-burger-label:before {
-  content: "";
-}
-
-.menu-burger,
-.menu-burger-label:after,
-.menu-burger-label:before {
-  height: 3px;
-  width: 100%;
-  position: absolute;
-  background: #ffffff;
-  margin: 0 auto;
-}
-
-.menu-burger {
-  top: 8px;
-}
-
-.menu-burger-label:after {
-  bottom: 0;
-}
-.menu-burger-label:before {
-  top: 0;
-}
-
-.menu-burger-btn:focus ~ .menu-burger-label {
-  outline: 2px solid white;
-  outline: auto;
-  outline-offset: 4px;
-}
 
 
 
@@ -91,12 +53,5 @@
   }
 }
 
-@media(max-width:768px){
-  .menu-burger-btn {
-    display: block;
-    opacity: 0;
-    cursor: pointer;
-    position: absolute;
-  }
-}
+
 
