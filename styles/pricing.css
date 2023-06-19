@@ -62,19 +62,6 @@
   box-shadow: 7px 10px 8px 0px rgba(34, 60, 80, 0.2);
 }
 
-.pricing-samples__card:hover {
-  transform: translateY(-35px);
-  -webkit-box-shadow: 7px 10px 8px 0px rgba(34, 60, 80, 0.2);
-  -moz-box-shadow: 7px 10px 8px 0px rgba(34, 60, 80, 0.2);
-  box-shadow: 7px 10px 8px 0px rgba(34, 60, 80, 0.2);
-}
-
-.pricing-samples__card:hover {
-  transform: translateY(-35px);
-  -webkit-box-shadow: 7px 10px 8px 0px rgba(34, 60, 80, 0.2);
-  -moz-box-shadow: 7px 10px 8px 0px rgba(34, 60, 80, 0.2);
-  box-shadow: 7px 10px 8px 0px rgba(34, 60, 80, 0.2);
-}
 
 
 @media(max-width:990px){
