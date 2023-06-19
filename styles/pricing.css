@@ -2,6 +2,7 @@
   background-color: #f5f5f5;
   padding-bottom: 80px;
   scroll-margin-top: 75px;
+
 }
 
 .pricing__samples {
@@ -11,15 +12,6 @@
   align-items: end;
 }
 
-.pricing-samples__card {
-  transition: all 0.3s ease-in-out;
-  margin-left: 50px;
-  padding: 0;
-  cursor: pointer;
-  border: 1px solid #f5f5f5;
-  text-align: center;
-  list-style-type: none;
-}
 
 .pricing-samples__title {
   border: 1px solid #f5f5f5;
